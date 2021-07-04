@@ -1,0 +1,21 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+.titulo
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.textoDiv
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /*border: 1px solid blue;*/
+}
+
+#texto
+{
+    width: 50%;
+    border-radius: 5px;
+}

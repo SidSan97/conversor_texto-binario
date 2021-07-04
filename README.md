@@ -1,2 +1,2 @@
-# conversor_texto-binario
-Conversor que pega texto e os converte para códigos binários
+# Conversor texto-binario
+Conversor que pega textos e os converte para códigos binários

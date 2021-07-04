@@ -12,18 +12,26 @@
 
     <title>conversor</title>
 </head>
-<body>
+
+<body style="background-color: rgba(79, 219, 219, 0.801);">
     <div class="container">
-        <h1 class="titulo">Digite abaixo o texto</h1>
+        <h1 class="titulo">CODIFICADOR DE TEXTO</h1>
+        <BR>
 
         <div class="textoDiv">
-            <input id="texto">
-        </div>
+            <div class="row">
+                <div class="col-lg-6 mb-1">
+                    <label for="texto">INSIRA AQUI O TEXTO:</label>
+                    <textarea name="" id="texto" cols="" rows=""></textarea>
 
-        <button onclick="convert();">CONVERTER</button>
+                    <button onclick="convert();">CONVERTER</button>
+                </div>
 
-        <div class="textoDiv">
-            <input id="texto2" disabled>
+                <div class="col-lg-6">
+                    <label for="texto2">TEXTO CODIFICADO:</label>
+                    <textarea name="" id="texto2" cols="" rows="" disabled></textarea>
+                </div>
+            </div>
         </div>
     </div>
 
